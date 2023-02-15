@@ -15,7 +15,7 @@ function NavBar( {windowWidth} ) {
       };
 
 return (
-    <div className="bg-stone-900 text-white p-3 sm:p-6 flex flex-row items-baseline justify-between">
+    <div className="bg-gray-700 text-white p-3 sm:p-6 flex flex-row items-baseline justify-between">
         <h1 className="font-bold text-2xl sm:text-2xl md:text-3xl lg:text-4xl m-1">
             Deryn Brown
         </h1>
@@ -49,7 +49,7 @@ return (
             <TfiEmail className="text-2xl hover:scale-110 transition ease-in-out focus:text-gray-500" />
           </Mailto>
         ) : (
-          <button className="font-light text-md bg-stone-900 text-white p-2 rounded-md border-2 border-white hover:text-stone-900 hover:bg-white focus:text-gray-500">
+          <button className="font-light text-md bg-gray-500 text-white p-2 rounded-md border-2 border-white hover:text-stone-900 hover:bg-white focus:text-gray-500">
             <Mailto
               email="deryn.2017@gmail.com"
               subject="Write your subject here..."

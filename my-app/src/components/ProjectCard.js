@@ -2,13 +2,13 @@ function ProjectCard( {title, imageUrl, description, stack, link, gitHub}) {
     const stackList = stack.map((tech) => (
         <span
         key={tech}
-        className="inline-block font-semibold px-2 py-1 border-2 border-stone-900 rounded-md">
+        className="bg-gray-600 text-white inline-block font-semibold px-2 py-1 border-2 border-stone-900 rounded-md">
         {tech}
         </span>
     ));
 
   return (
-    <div className="border-4 border-stone-900 rounded-md overflow-hidden hover:-translate-y-2 transition ease-in-out">
+    <div className="bg-gray-300 border-4 border-stone-900 rounded-md overflow-hidden hover:-translate-y-2 transition ease-in-out">
       <img
         src={imageUrl}
         alt="portfolio"

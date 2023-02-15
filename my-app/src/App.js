@@ -22,7 +22,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div className="bg-auto bg-[url('/public/white_brick_3.jpg')] ">
       <NavBar windowWidth={windowWidth}/>
       <Header />
       <ProjectContainer />
