@@ -35,11 +35,6 @@ return (
                     <FaMedium />
                 </button>
             </a>
-            <a href="https://www.instagram.com/derynemily_/">
-                <button className="text-2xl md:text-3xl hover:scale-110 transition ease-in-out items-center focus:text-gray-500">
-                    <FaInstagram />
-                </button>
-            </a>
             {windowWidth < 640 ? (
           <Mailto
             email="deryn.2017@gmail.com"
